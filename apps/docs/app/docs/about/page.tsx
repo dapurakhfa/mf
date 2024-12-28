@@ -1,5 +1,5 @@
 import { Page, Text, Code, Link } from '@vercel/examples-ui'
-import { Navbar } from '@acme/components/navbar'
+import { Navbar } from '@qrmy/components/navbar'
 
 export default function AboutPage() {
   return (

@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Button, Quote } from '@acme/design-system'
-import { matchingTextColor, randomColor } from '@acme/utils'
+import { Button, Quote } from '@qrmy/design-system'
+import { matchingTextColor, randomColor } from '@qrmy/utils'
 
 export function ColoredButton() {
   const [bgColor, setBgColor] = useState('')

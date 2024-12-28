@@ -23,15 +23,15 @@ importers:
 
   apps/docs:
     dependencies:
-      '@acme/components':
+      '@qrmy/components':
         specifier: workspace:*
-        version: link:../../packages/acme-components
-      '@acme/design-system':
+        version: link:../../packages/qrmy-components
+      '@qrmy/design-system':
         specifier: workspace:*
-        version: link:../../packages/acme-design-system
-      '@acme/utils':
+        version: link:../../packages/qrmy-design-system
+      '@qrmy/utils':
         specifier: workspace:*
-        version: link:../../packages/acme-utils
+        version: link:../../packages/qrmy-utils
       '@vercel/examples-ui':
         specifier: ^1.0.4
         version: 1.0.5(next@14.2.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -57,9 +57,9 @@ importers:
       eslint:
         specifier: ^8.11.0
         version: 8.38.0
-      eslint-config-acme:
+      eslint-config-qrmy:
         specifier: workspace:*
-        version: link:../../packages/eslint-config-acme
+        version: link:../../packages/eslint-config-qrmy
       postcss:
         specifier: ^8.4.18
         version: 8.4.23
@@ -72,15 +72,15 @@ importers:
 
   apps/main:
     dependencies:
-      '@acme/components':
+      '@qrmy/components':
         specifier: workspace:*
-        version: link:../../packages/acme-components
-      '@acme/design-system':
+        version: link:../../packages/qrmy-components
+      '@qrmy/design-system':
         specifier: workspace:*
-        version: link:../../packages/acme-design-system
-      '@acme/utils':
+        version: link:../../packages/qrmy-design-system
+      '@qrmy/utils':
         specifier: workspace:*
-        version: link:../../packages/acme-utils
+        version: link:../../packages/qrmy-utils
       '@vercel/examples-ui':
         specifier: ^1.0.4
         version: 1.0.5(next@14.2.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -106,9 +106,9 @@ importers:
       eslint:
         specifier: ^8.11.0
         version: 8.38.0
-      eslint-config-acme:
+      eslint-config-qrmy:
         specifier: workspace:*
-        version: link:../../packages/eslint-config-acme
+        version: link:../../packages/eslint-config-qrmy
       postcss:
         specifier: ^8.4.18
         version: 8.4.23
@@ -119,14 +119,14 @@ importers:
         specifier: 5.1.3
         version: 5.1.3
 
-  packages/acme-components:
+  packages/qrmy-components:
     dependencies:
-      '@acme/design-system':
+      '@qrmy/design-system':
         specifier: workspace:*
-        version: link:../acme-design-system
-      '@acme/utils':
+        version: link:../qrmy-design-system
+      '@qrmy/utils':
         specifier: workspace:*
-        version: link:../acme-utils
+        version: link:../qrmy-utils
       '@vercel/examples-ui':
         specifier: ^1.0.5
         version: 1.0.5(next@14.2.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -149,14 +149,14 @@ importers:
       eslint:
         specifier: ^8.38.0
         version: 8.38.0
-      eslint-config-acme:
+      eslint-config-qrmy:
         specifier: workspace:*
-        version: link:../eslint-config-acme
+        version: link:../eslint-config-qrmy
       typescript:
         specifier: ^5.0.4
         version: 5.1.3
 
-  packages/acme-design-system:
+  packages/qrmy-design-system:
     dependencies:
       '@swc/helpers':
         specifier: ^0.5.1
@@ -192,18 +192,18 @@ importers:
       eslint:
         specifier: ^8.38.0
         version: 8.38.0
-      eslint-config-acme:
+      eslint-config-qrmy:
         specifier: workspace:*
-        version: link:../eslint-config-acme
+        version: link:../eslint-config-qrmy
       typescript:
         specifier: 5.0.4
         version: 5.0.4
 
-  packages/acme-storybook:
+  packages/qrmy-storybook:
     dependencies:
-      '@acme/design-system':
+      '@qrmy/design-system':
         specifier: workspace:*
-        version: link:../acme-design-system
+        version: link:../qrmy-design-system
       '@vercel/examples-ui':
         specifier: ^1.0.5
         version: 1.0.5(next@14.2.13(@babel/core@7.21.4)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -238,9 +238,9 @@ importers:
       eslint:
         specifier: ^8.38.0
         version: 8.38.0
-      eslint-config-acme:
+      eslint-config-qrmy:
         specifier: workspace:*
-        version: link:../eslint-config-acme
+        version: link:../eslint-config-qrmy
       eslint-plugin-storybook:
         specifier: ^0.6.11
         version: 0.6.11(eslint@8.38.0)(typescript@5.0.4)
@@ -263,14 +263,14 @@ importers:
         specifier: ^4.3.1
         version: 4.3.1(@types/node@20.11.30)(terser@5.34.0)
 
-  packages/acme-utils:
+  packages/qrmy-utils:
     devDependencies:
       eslint:
         specifier: ^8.16.0
         version: 8.38.0
-      eslint-config-acme:
+      eslint-config-qrmy:
         specifier: workspace:*
-        version: link:../eslint-config-acme
+        version: link:../eslint-config-qrmy
       tsup:
         specifier: ^5.12.8
         version: 5.12.9(@swc/core@1.3.53)(postcss@8.4.31)(ts-node@10.9.1(@swc/core@1.3.53)(@types/node@20.11.30)(typescript@4.9.5))(typescript@4.9.5)
@@ -278,7 +278,7 @@ importers:
         specifier: ^4.5.5
         version: 4.9.5
 
-  packages/eslint-config-acme:
+  packages/eslint-config-qrmy:
     dependencies:
       eslint:
         specifier: ^8.26.0

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { PrefetchCrossZoneLinks } from '@acme/components/prefetch'
+import { PrefetchCrossZoneLinks } from '@qrmy/components/prefetch'
 import { Layout } from '@vercel/examples-ui'
 import '@vercel/examples-ui/globals.css'
 
