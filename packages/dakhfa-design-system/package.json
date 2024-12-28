@@ -1,5 +1,5 @@
 {
-  "name": "@qrmy/design-system",
+  "name": "@dakhfa/design-system",
   "version": "0.0.1",
   "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
@@ -67,7 +67,7 @@
     "@types/react": "^18.3.10",
     "chokidar": "^3.5.3",
     "eslint": "^8.38.0",
-    "eslint-config-qrmy": "workspace:*",
+    "eslint-config-dakhfa": "workspace:*",
     "typescript": "5.0.4"
   }
 }

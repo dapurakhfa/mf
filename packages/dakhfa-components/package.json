@@ -1,5 +1,5 @@
 {
-  "name": "@qrmy/components",
+  "name": "@dakhfa/components",
   "version": "0.0.1",
   "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
@@ -31,15 +31,15 @@
     "react-dom": "^18.0.0-0"
   },
   "dependencies": {
-    "@qrmy/design-system": "workspace:*",
-    "@qrmy/utils": "workspace:*",
+    "@dakhfa/design-system": "workspace:*",
+    "@dakhfa/utils": "workspace:*",
     "@vercel/examples-ui": "^1.0.5",
     "clsx": "^1.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.10",
     "eslint": "^8.38.0",
-    "eslint-config-qrmy": "workspace:*",
+    "eslint-config-dakhfa": "workspace:*",
     "typescript": "^5.0.4"
   }
 }

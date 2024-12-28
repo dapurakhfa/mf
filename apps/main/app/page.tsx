@@ -1,6 +1,6 @@
 import { Page, Text, Code, Link, Snippet } from '@vercel/examples-ui'
-import { Navbar } from '@qrmy/components/navbar'
-import { Button, Quote } from '@qrmy/design-system'
+import { Navbar } from '@dakhfa/components/navbar'
+import { Button, Quote } from '@dakhfa/design-system'
 import { ColoredButton } from './components/colored-button'
 
 export default function Home(): React.ReactNode {
@@ -32,7 +32,7 @@ export default function Home(): React.ReactNode {
         <Code>apps/main/app/page.tsx</Code>.
       </Text>
       <Text variant="h2" className="mt-10 mb-6">
-        packages/qrmy-design-system
+        packages/dakhfa-design-system
       </Text>
       <Text className="mb-4">
         Example of how you could build a Design System, it&apos;s a set of React
@@ -43,16 +43,16 @@ export default function Home(): React.ReactNode {
         This is the <Code>Quote</Code> component in the design system.
       </Quote>
       <Text variant="h2" className="mt-10 mb-6">
-        packages/qrmy-components
+        packages/dakhfa-components
       </Text>
       <Text className="mb-4">
-        Works in the same way as <Code>packages/qrmy-design-system</Code> but
+        Works in the same way as <Code>packages/dakhfa-design-system</Code> but
         instead of building a design system it&apos;s about having shared
         components that can be used across applications such as the navigation
         bar.
       </Text>
       <Text variant="h2" className="mt-10 mb-6">
-        packages/qrmy-utils
+        packages/dakhfa-utils
       </Text>
       <Text className="mb-4">This package exports utility functions.</Text>
       <Text className="mb-4">
@@ -85,18 +85,18 @@ export default function Home(): React.ReactNode {
         be reflected unless you also run that application locally.
       </Text>
       <Text variant="h2" className="mt-10 my-6">
-        packages/qrmy-storybook
+        packages/dakhfa-storybook
       </Text>
       <Text className="mb-4">
         This packages takes the stories in{' '}
-        <Code>packages/qrmy-design-system</Code> and opens them in{' '}
+        <Code>packages/dakhfa-design-system</Code> and opens them in{' '}
         <Link href="https://storybook.js.org/" target="_blank">
           Storybook
         </Link>
         .
       </Text>
       <Text variant="h2" className="mt-10 my-6">
-        packages/eslint-config-qrmy
+        packages/eslint-config-dakhfa
       </Text>
       <Text className="mb-4">
         Exports the Eslint configuration that will be used by all apps and
@@ -113,7 +113,7 @@ export default function Home(): React.ReactNode {
       </Text>
       <Snippet className="mb-4">{`module.exports = {
   root: true,
-  extends: ['qrmy'],
+  extends: ['dakhfa'],
 }`}</Snippet>
     </Page>
   )

@@ -1,5 +1,5 @@
 import { Page, Text, Code, Link } from '@vercel/examples-ui'
-import { Navbar } from '@qrmy/components/navbar'
+import { Navbar } from '@dakhfa/components/navbar'
 
 export default function AboutPage(): React.ReactNode {
   return (

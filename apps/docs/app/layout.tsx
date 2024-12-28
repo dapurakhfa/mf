@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
-import { PrefetchCrossZoneLinks } from '@qrmy/components/prefetch'
-import { Layout } from '@vercel/examples-ui'
+import { PrefetchCrossZoneLinks } from '@dakhfa/components/prefetch'
 import '@vercel/examples-ui/globals.css'
 
 export const metadata: Metadata = {
@@ -16,9 +15,7 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <Layout title="Microfrontends" path="solutions/microfrontends">
-          {children}
-        </Layout>
+        {children}
         <PrefetchCrossZoneLinks hrefs={['/', '/about']} />
       </body>
     </html>

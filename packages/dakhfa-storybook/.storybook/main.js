@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   stories: [
     {
-      directory: '../../qrmy-design-system/src/**',
+      directory: '../../dakhfa-design-system/src/**',
       files: '*.stories.*',
       titlePrefix: 'Design System',
     },
