@@ -1,7 +1,7 @@
 {
   "name": "@dakhfa/design-system",
   "version": "0.0.1",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/dapurakhfa/mf.git",
   "license": "MIT",
   "scripts": {
     "dev": "pnpm build:swc -w",
@@ -49,7 +49,8 @@
           "dist/tailwind.d.cts"
         ]
       }
-    }
+    },
+    "access": "public"
   },
   "peerDependencies": {
     "next": "^14.0.0",

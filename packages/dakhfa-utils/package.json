@@ -1,7 +1,7 @@
 {
   "name": "@dakhfa/utils",
   "version": "0.0.1",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/dapurakhfa/mf.git",
   "license": "MIT",
   "scripts": {
     "dev": "pnpm build --watch",
@@ -43,7 +43,8 @@
           "dist/*/index.d.ts"
         ]
       }
-    }
+    },
+    "access": "public"
   },
   "files": [
     "dist"

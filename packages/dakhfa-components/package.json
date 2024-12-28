@@ -1,9 +1,8 @@
 {
   "name": "@dakhfa/components",
   "version": "0.0.1",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/dapurakhfa/mf.git",
   "license": "MIT",
-  "private": "true",
   "sideEffects": false,
   "type": "module",
   "exports": {
@@ -24,6 +23,9 @@
     "clean": "rm -rf ./dist && rm -rf .turbo",
     "lint": "TIMING=1 eslint \"**/*.{ts,tsx,js,jsx}\" --fix",
     "type-check": "tsc --noEmit"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "next": "^14.0.0",

@@ -1,15 +1,17 @@
 {
   "name": "@dakhfa/storybook",
   "version": "0.0.1",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/dapurakhfa/mf.git",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "storybook dev -p 6006 --no-open",
     "build": "storybook build",
     "preview-storybook": "serve storybook-static",
     "lint": "TIMING=1 eslint \"**/*.{ts,tsx,js,jsx}\" --fix",
     "clean": "rm -rf .turbo"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@dakhfa/design-system": "workspace:*",

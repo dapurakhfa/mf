@@ -1,8 +1,7 @@
 {
   "name": "microfrontends",
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": "https://github.com/dapurakhfa/mf.git",
   "license": "MIT",
-  "private": true,
   "workspaces": [
     "apps/*",
     "packages/*"
